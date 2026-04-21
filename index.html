@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibey Ventures - Event Management & Planning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Vibey Ventures</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home" style="background: linear-gradient(135deg, rgba(15, 15, 15, 0.6), rgba(26, 26, 26, 0.6)), url('https://images.unsplash.com/photo-1519671482677-1acda47bd866?w=1600&h=900&fit=crop') center/cover no-repeat; background-attachment: fixed;">
+        <div class="home-content">
+            <h1 class="hero-title">Celebrate in Style</h1>
+            <p class="hero-subtitle">Transform your events into unforgettable experiences</p>
+            <button class="btn btn-primary" onclick="scrollTo('contact')">Book Now</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about" style="background: linear-gradient(135deg, rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)), url('https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600&h=900&fit=crop') center/cover; background-attachment: fixed;">
+        <div class="container">
+            <h2 class="section-title">About Vibey Ventures</h2>
+            <p class="section-description">
+                At Vibey Ventures, we believe every event tells a story. With over a decade of experience in event planning and decoration, we specialize in creating magical moments that last a lifetime. From intimate gatherings to grand celebrations, our team brings creativity, professionalism, and passion to every project.
+            </p>
+            <p class="section-description">
+                We handle every detail meticulously�from concept to execution�ensuring your event reflects your vision perfectly. Our expertise spans across all event types, and we're committed to making your celebration truly special.
+            </p>
+            <div class="about-features">
+                <div class="feature">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=200&fit=crop" alt="Event planning and organization">
+                    </div>
+                    <h3>Dedicated Planning</h3>
+                    <p>Personalized attention to every detail</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop" alt="Creative event design">
+                    </div>
+                    <h3>Creative Design</h3>
+                    <p>Stunning aesthetics that captivate</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=300&h=200&fit=crop" alt="Premium quality decorations">
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Excellence in every decoration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Birthday Parties</h3>
+                    <p>Create magical birthday celebrations with themed decorations, backdrops, and entertainment options tailored to make the day unforgettable.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1519671482677-1acda47bd866?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Weddings</h3>
+                    <p>Design your dream wedding with elegant decorations, venue styling, and floral arrangements that capture your love story beautifully.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Anniversaries</h3>
+                    <p>Celebrate milestones with romantic setups, sophisticated decor, and intimate ambiance perfect for commemorating your special moments.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1464207687429-7505649dae38?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Corporate Events</h3>
+                    <p>Impress clients and employees with professional event setups, branded decorations, and seamless coordination for conferences and celebrations.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1502680390467-0aaea9ae269e?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Private Parties</h3>
+                    <p>Throw unforgettable private gatherings with custom themes, mood lighting, and decorative elements that set the perfect atmosphere.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(212, 165, 116, 0.1)), url('https://images.unsplash.com/photo-1559329007-40ec44d1641a?w=400&h=300&fit=crop') center/cover; background-blend-mode: overlay;">
+                    <div class="card-icon">??</div>
+                    <h3>Custom Events</h3>
+                    <p>Whatever your vision, we bring it to life with bespoke event planning and decoration services tailored to your unique requirements.</p>
+                    <button class="btn btn-secondary" onclick="scrollTo('contact')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery" style="background: linear-gradient(135deg, rgba(26, 26, 26, 0.92), rgba(26, 26, 26, 0.92)), url('https://images.unsplash.com/photo-1519671482677-1acda47bd866?w=1600&h=900&fit=crop') center/cover no-repeat; background-attachment: fixed;">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519671482677-1acda47bd866?w=400&h=300&fit=crop" alt="Elegant wedding decoration">
+                    <div class="gallery-overlay">Wedding</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=400&h=300&fit=crop" alt="Colorful birthday party">
+                    <div class="gallery-overlay">Birthday</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464207687429-7505649dae38?w=400&h=300&fit=crop" alt="Corporate event setup">
+                    <div class="gallery-overlay">Corporate</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1502680390467-0aaea9ae269e?w=400&h=300&fit=crop" alt="Outdoor party celebration">
+                    <div class="gallery-overlay">Outdoor</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop" alt="Romantic dinner setup">
+                    <div class="gallery-overlay">Elegant</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559329007-40ec44d1641a?w=400&h=300&fit=crop" alt="Party balloons decoration">
+                    <div class="gallery-overlay">Party</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="Your email">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your event..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <span class="success-message" id="successMessage"></span>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <h4>?? Phone</h4>
+                        <p>7305904653</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📧 Email</h4>
+                        <p>vibeyventures.yourevents.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>?? Location</h4>
+                        <p>no.87, chavadi street,korattur chennai-80</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>? Hours</h4>
+                        <p>Monday - Friday: 9am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vibey Ventures</h3>
+                    <p>Making every event unforgettable since 2014</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">Facebook</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vibey Ventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
